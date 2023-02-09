@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="../static/css/product.css">
+</head>
+
+<body>
+  {{! * navbar }}
+  <nav id="navbar">
+    <div id="logo">
+      <img src="../static/logo/main logo.png" alt="">
+    </div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/offers">Offers</a></li>
+      <li><a href="/products">Products</a></li>
+      <li><a href="/order">Order</a></li>
+    </ul>
+
+    <input type="text" placeholder="search"></input>
+    <button id="btn"><img src="../static/logo/search.png" alt=""></button>
+
+    <div id="cart">
+      <a href="/cart"><img src="../static/logo/cart.png" alt=""></a>
+    </div>
+  </nav>
+
+
+  {{!-- *slider --}}
+  <div class="slider" id="slider">
+    <div class="slide" id="slide">
+      <img class="item" src="../static/products img/combo.jpg">
+      <img class="item" src="../static/products img/dress.jpg">
+      <img class="item" src="../static/products img/dress2.jpg">
+      <img class="item" src="../static/products img/watch.jpg">
+      <img class="item" src="../static/products img/tablet.jpg">
+      <img class="item" src="../static/products img/laptop.jpg">
+      <img class="item" src="../static/products img/lam.jpg">
+      <img class="item" src="../static/products img/ear bads.jpg">
+      <img class="item" src="../static/products img/head phone.jpg">
+
+    </div>
+    <button class="ctrl-btn pro-prev">Prev</button>
+    <button class="ctrl-btn pro-next">Next</button>
+  </div>
+
+  {{!-- items --}}
+
+  <div id="container">
+    <div id="boxes">
+      <div class="boxitems">
+        <img src="../static/products img/watch.jpg" alt="">
+        <h1>Heavy seles</h1>
+      </div>
+      <div class="boxitems">
+        <img src="../static/products img/lam.jpg" alt="">
+        <h1>Discount</h1>
+      </div>
+      <div class="boxitems">
+        <img src="../static/products img/dress.jpg" alt="">
+        <h1>Cool dress</h1>
+      </div>
+    </div>
+    <div id="boxes1">
+      <div class="boxitems">
+        <img src="../static/products img/ear bads.jpg" alt="">
+        <h1>Song</h1>
+      </div>
+      <div class="boxitems">
+        <img src="../static/products img/combo.jpg" alt="">
+        <h1>Combo</h1>
+      </div>
+      <div class="boxitems">
+        <img src="../static/products img/dress2.jpg" alt="">
+        <h1>dress</h1>
+      </div>
+    </div>
+    <div id="boxes2">
+      <div class="boxitems">
+        <img src="../static/products img/head phone.jpg" alt="">
+        <h1>Head phones</h1>
+      </div>
+      <div class="boxitems">
+        <img src="../static/products img/tablet.jpg" alt="">
+        <h1>Tablet</h1>
+      </div>
+      <div class="boxitems">
+        <img src="../static/products img/laptop.jpg" alt="">
+        <h1>Laptop</h1>
+      </div>
+    </div>
+  </div>
+
+
+  {{!-- footer --}}
+  <footer id="footer">
+    <h2>Follow us on :</h2>
+    <div id="logos">
+      <img src="../static/logo/facebook.png" alt="">
+      <img src="../static/logo/instagram.png" alt="">
+      <img src="../static/logo/twitter.png" alt="">
+      <img src="../static/logo/github.png" alt="">
+
+    </div>
+    <h1>ALL RIGTHS ARE RESERVED &COPY; 2023</h1>
+  </footer>
+
+  <script src="../static/js/product.js"></script>
+
+</body>
+
+</html>
